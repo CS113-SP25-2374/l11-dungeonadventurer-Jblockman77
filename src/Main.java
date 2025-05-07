@@ -9,5 +9,10 @@ public class Main {
         }
 
         // TODO: Complete this lab!
+
+        Explorer indianJones = new Explorer();
+        indianJones.scanWithUAV(DungeonMap.MAP);
+        indianJones.findPaths();
+        indianJones.findMST();
     }
 }
